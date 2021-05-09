@@ -1,4 +1,4 @@
-let url = 'http://leads.beta.openstudycollege.info/getTopLeads';
+let url = 'https://leads.beta.openstudycollege.info/getTopLeads';
 
 const users_array = [];
 let user_iteration = 1;
