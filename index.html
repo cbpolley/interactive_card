@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+  <title>Card Component</title>
+</head>
+
+<body>
+
+  <div class="component_page flex_col">
+
+    <div class="pink_header_block">
+      <div class="background_header_image"></div>
+      <ul class="header_components width_80 flex_col">
+        <li class="close_btn"></li>
+        <li class="profile_nav flex_row">
+          <div class="arrow_house flex_col">
+            <div class="arrow left" id="left_browse"></div>
+          </div>
+          <div class="profile_holder flex_row">
+
+            <div class="img_holder">
+              <img alt="Profile Image" src="./assets/profile.png" id="profile_img">
+            </div>
+
+            <div class="checkmark">
+              <div class="checkmark_circle"></div>
+              <div class="checkmark_stem"></div>
+              <div class="checkmark_kick"></div>
+            </div>
+          </div>
+          <div class="arrow_house flex_col">
+            <div class="arrow right" id="right_browse"></div>
+          </div>
+        </li>
+
+        <li>
+          <h1 class="centered" id="name_tag">...</h1>
+        </li>
+        <li>
+          <p class="sub_text centered" id="job_tag">...</p>
+        </li>
+        <li class="width_40">
+          <p class="sub_text bold_text hover_block id_block centered auto_margin" id="id_number_tag">...</p>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="pop_out_status_block flex_row">
+      <div class="status_col flex_col">
+        <h3 id="enrolement_status">...</h3>
+        <p class="sub_text">Enrolement Status</p>
+      </div>
+      <div class="vertical_divider"></div>
+      <div class="status_col flex_col">
+        <h3 id="course_amount">...</h3>
+        <p class="sub_text">Completed Courses</p>
+      </div>
+    </div>
+
+    <div class="card_holder flex_col">
+
+      <div class="contact_block width_80">
+        <p class="sub_text">Contact details</p>
+        <p id="email_details">...</p>
+        <p id="phone_details">...</p>
+      </div>
+
+      <div class="about_block width_80">
+        <p class="sub_text">About Me</p>
+        <p id="about_details">...</p>
+      </div>
+
+
+      <div class="current_course_block hover_block width_100">
+        <div class="light_block_inner width_80 flex_row">
+          <div class="course_icon"></div>
+          <div class="current_course_col">
+            <h2>Current Course:</h2>
+            <p class="sub_text" id="current_course">...</p>
+          </div>
+          <div class="course_info arrow_house flex_col">
+            <div class="arrow right"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="photos_block hover_block width_100 flex_col">
+        <div class="light_block_inner width_80">
+          <div class="photos_title flex_row">
+            <h2>My Photos</h2>
+            <div class="arrow_house flex_col">
+              <div class="arrow down"></div>
+            </div>
+          </div>
+          <div class="photos_gallery">
+            <div class="photos_row flex_row">
+              <div class="gallery_img_holder gallery_lrg">
+                <img src="" alt="gallery image 1" class="gallery_img hide" id="gallery_img_lrg">
+              </div>
+              <div class="photos_col flex_col">
+                <div class="gallery_img_holder gallery_med">
+                  <img src="" alt="gallery image 2" class="gallery_img hide" id="gallery_img_med">
+                </div>
+                <div class="photos_row flex_row">
+                  <div class="gallery_img_holder gallery_sml">
+                    <img src="" alt="gallery image 3" class="gallery_img hide" id="gallery_img_sml">
+                  </div>
+                  <div class="gallery_img_holder gallery_sml">
+                    <img src="" alt="gallery image 4" class="gallery_img hide" id="gallery_img_sml_2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
